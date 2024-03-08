@@ -79,7 +79,7 @@ dependencies {
     }
     testImplementation(libs.kotlin.scriptingJvm)
     testImplementation(libs.jsoup)
-    testImplementation(kotlin("compiler-embeddable"))
+//    testImplementation(kotlin("compiler-embeddable"))
 
 }
 
