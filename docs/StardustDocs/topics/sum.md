@@ -10,9 +10,9 @@ Computes the sum of values.
 
 ```kotlin
 df.sum() // sum of values per every numeric column
-df.sum { age and weight } // sum of all values in `age` and `weight`
-df.sumFor { age and weight } // sum of values per `age` and `weight` separately
-df.sumOf { (weight ?: 0) / age } // sum of expression evaluated for every row
+df.sum() { age and weight } // sum of all values in `age` and `weight`
+df.sumFor() { age and weight } // sum of values per `age` and `weight` separately
+df.sumOf() { (weight ?: 0) / age } // sum of expression evaluated for every row
 ```
 
 <!---END-->
